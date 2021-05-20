@@ -1,0 +1,30 @@
+img{
+    width: 1.5rem;
+}
+
+#title{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: left;
+}
+
+#city, #country{
+    padding: 0.5rem;
+}
+table {
+    border-collapse:collapse;
+    text-align: left;
+  }
+  
+  table, th, td {
+    border: groove;
+    text-align: left;
+  }
+  th,td{
+      width: 13rem;
+      height: 2rem;
+      text-align: left;
+      font-size: 1rem;
+      
+  }
