@@ -24,13 +24,13 @@ play.onclick = (e) => {
   e.preventDefault();
   modal.style = "display: flex";
   video.play();
-  play.style = "display: none"
+  play.style = "display: none";
 };
 close.onclick = (e) => {
   e.preventDefault();
   modal.style = "display: none";
   video.pause();
-  play.style = "display: flex"
+  play.style = "display: flex";
 };
 
 //video
@@ -43,13 +43,14 @@ modal.appendChild(video);
 let textContainer = document.createElement("div");
 textContainer.className = "textContainer";
 let title = document.createElement("h1");
-title.innerText = "Give the world the answer they need, become a Supernatural Partner today.";
-title.id = "title"
+title.innerText =
+  "Give the world the answer they need, become a Supernatural Partner today.";
+title.id = "title";
 let content = document.createElement("h4");
 content.innerText =
   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores laboriosam tempora quam accusamus mollitia iste ipsa, ipsum odit temporibus enim sequi ut magni facere ratione repellendus assumenda voluptatibus adipisci rem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores laboriosam tempora quam accusamus mollitia iste ipsa, ipsum odit temporibus enim sequi ut magni facere ratione repellendus assumenda voluptatibus adipisci rem.";
-content.id = "content"
-  //subContainers elemnts
+content.id = "content";
+//subContainers elemnts
 generalContainer.appendChild(imageContainer);
 generalContainer.appendChild(textContainer);
 //img elements attached to a div

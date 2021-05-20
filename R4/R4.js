@@ -5,7 +5,7 @@ let tbody = document.createElement("tbody");
 let trHead = document.createElement("tr");
 let trbody = document.createElement("tr");
 
-title.id= "title"
+title.id = "title";
 //fetch request
 fetch(
   "http://api.weatherstack.com/current?access_key=570df689a9a3cf5ff173d7540177befc&query=New%20York"
@@ -16,10 +16,10 @@ fetch(
     let city = document.createElement("h2");
     let country = document.createElement("h2");
     country.innerText = data.location.country;
-    country.id = "country"
-    city.id= "city"
+    country.id = "country";
+    city.id = "city";
     city.innerText = data.location.name;
-    title.appendChild(country)
+    title.appendChild(country);
     title.appendChild(city);
     //table heads declarations
     let temperature = document.createElement("th");
