@@ -10,17 +10,17 @@ for (let i = 0; i <= 6; i++) {
 }
 for (let i = 0; i <= 10; i++) {
   let trbody = document.createElement("tr");
-  for(let j=0; j<=6; j++){
-      if (i % 2 === 0){
-          let tdBody = document.createElement("td");
-          tdBody.innerText = `lorem ipsum  ${i}`;
-          tdBody.style = "background: gainsboro"
-          tbody.appendChild(tdBody);
-      }else{
-        let tdBody = document.createElement("td");
-        tdBody.innerText = `lorem ipsum  ${i}`;
-        tbody.appendChild(tdBody);
-      }
+  for (let j = 0; j <= 6; j++) {
+    if (i % 2 === 0) {
+      let tdBody = document.createElement("td");
+      tdBody.innerText = `lorem ipsum  ${i}`;
+      tdBody.style = "background: gainsboro";
+      tbody.appendChild(tdBody);
+    } else {
+      let tdBody = document.createElement("td");
+      tdBody.innerText = `lorem ipsum  ${i}`;
+      tbody.appendChild(tdBody);
+    }
   }
   tbody.appendChild(trbody);
 }
